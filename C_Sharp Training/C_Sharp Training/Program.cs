@@ -8,13 +8,21 @@ namespace C_Sharp_Training
         {
             var a = 1;
             var b = 1;
-            if (a==b)
+
+            /*f (a == b)
             {
                 Console.WriteLine("Hello World!");
             }else
             {
                 Console.WriteLine("It´s not the same");
+            }*/
+
+            for (int i = 0; i < 10; i++)
+            {
+                a = a + b;
+                Console.WriteLine(a);
             }
-        }
+            
+    }
     }
 } 
